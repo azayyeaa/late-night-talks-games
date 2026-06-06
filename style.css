@@ -1,11 +1,1 @@
-body{margin:0;background:#08111f;color:white;font-family:Arial}
-#menu{text-align:center;padding-top:120px}
-button{padding:10px 20px}
-#ui{padding:10px;background:#111827}
-#world{width:900px;height:550px;margin:10px auto;position:relative;background:#0f1d35;border:2px solid #fff;overflow:hidden}
-#player{width:28px;height:28px;background:white;position:absolute;left:50px;top:50px}
-.npc{width:32px;height:32px;background:#facc15;color:#000;position:absolute;text-align:center;line-height:32px;font-weight:bold}
-.bench{width:60px;height:20px;background:#8b5a2b;position:absolute}
-#dialog{width:900px;margin:auto;background:#111827;padding:10px}
-.star{position:absolute;color:white;animation:blink 2s infinite}
-@keyframes blink{50%{opacity:.2}}
+body{margin:0;background:#08101d;color:#fff;font-family:Arial}#menu{text-align:center;padding-top:120px}#world{width:900px;height:550px;margin:10px auto;position:relative;background:#10203c;border:3px solid #fff;overflow:hidden}#hud,#dialog{width:900px;margin:auto;background:#111827;padding:8px}#player,.npc{width:32px;height:32px;position:absolute}#player{background:#fff;left:60px;top:60px}.npc{background:#facc15}#player span,.npc span{position:absolute;top:-18px;font-size:12px}.bench{position:absolute;left:430px;top:430px;width:70px;height:18px;background:#7a4b22}.star{position:absolute;animation:blink 2s infinite}@keyframes blink{50%{opacity:.2}}#controls{text-align:center;padding:10px}button{padding:10px}
