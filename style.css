@@ -1,0 +1,11 @@
+body{margin:0;background:#08111f;color:white;font-family:Arial}
+#menu{text-align:center;padding-top:120px}
+button{padding:10px 20px}
+#ui{padding:10px;background:#111827}
+#world{width:900px;height:550px;margin:10px auto;position:relative;background:#0f1d35;border:2px solid #fff;overflow:hidden}
+#player{width:28px;height:28px;background:white;position:absolute;left:50px;top:50px}
+.npc{width:32px;height:32px;background:#facc15;color:#000;position:absolute;text-align:center;line-height:32px;font-weight:bold}
+.bench{width:60px;height:20px;background:#8b5a2b;position:absolute}
+#dialog{width:900px;margin:auto;background:#111827;padding:10px}
+.star{position:absolute;color:white;animation:blink 2s infinite}
+@keyframes blink{50%{opacity:.2}}
