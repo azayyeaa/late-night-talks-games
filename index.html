@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Late Night Talks: Somewhere at 2 AM</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="menu">
+  <h1>🌙 Late Night Talks: Somewhere at 2 AM</h1>
+  <p>Kota sudah tertidur, namun beberapa cerita masih terjaga.</p>
+  <button onclick="startGame()">Mulai</button>
+</div>
 
+<div id="game" style="display:none;">
+  <div id="ui">Chapter <span id="chapter">1</span> | Dekati NPC lalu tekan E</div>
+  <div id="world">
+    <div id="player"></div>
+
+    <div class="npc" data-name="Icall" data-text="Kadang malam memang lebih jujur daripada siang." style="left:180px;top:120px;">I</div>
+    <div class="npc" data-name="Syaraa" data-text="Langit malam hari ini cantik ya." style="left:420px;top:180px;">S</div>
+    <div class="npc" data-name="Liaa" data-text="Kenangan yang indah sulit dilupakan." style="left:650px;top:320px;">L</div>
+    <div class="npc" data-name="Sisii" data-text="Mungkin kamu sedang menghindari sesuatu." style="left:300px;top:420px;">Si</div>
+    <div class="npc" data-name="Nanadd" data-text="Setiap malam pasti berakhir, kenangan tidak." style="left:760px;top:140px;">N</div>
+
+    <div class="bench" style="left:520px;top:420px;"></div>
+  </div>
+
+  <div id="dialog">
+    <h3 id="speaker">Dialog</h3>
+    <p id="text">Selamat datang, Zayyy.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
